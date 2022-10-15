@@ -1,0 +1,13 @@
+# Kubernetes NGINX Deployment
+
+This project demonstrates deploying an NGINX web server application in Kubernetes using Deployments, Services, and ConfigMaps.
+
+## Files
+- `deployment.yaml`: Defines the NGINX Deployment with 3 replicas.
+- `service.yaml`: Exposes the Deployment as a LoadBalancer Service.
+- `configmap.yaml`: Provides configuration for environment variables.
+
+## Steps to Deploy
+1. Apply the ConfigMap:
+   ```bash
+   kubectl apply -f configmap.yaml
