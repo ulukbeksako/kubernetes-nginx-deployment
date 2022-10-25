@@ -18,5 +18,6 @@ This project demonstrates deploying an NGINX web server application in Kubernete
    kubectl get deployments
 5. Check the Service:
    kubectl get svc
+Finish
 
    
